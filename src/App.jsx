@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Components/Card'
 import Nav from './Components/Nav'
-import Recipe from './Components/recipe'
+// import Recipe from './Components/recipe'
 import Nav2 from './Nav2'
 import Card2 from './Card2'
 import img1 from './assets/files/Group_794_b6015e30-dfcf-4395-afce-b93c336fc647.png'
@@ -70,7 +70,7 @@ const App = () => {
 
       </div>
 
-      <Recipe />
+      {/* <Recipe /> */}
 
       <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
 
