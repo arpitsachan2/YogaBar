@@ -1,0 +1,45 @@
+#moving-text1 {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+#moving-text1::-webkit-scrollbar {
+    display: none;
+
+}
+
+.con1 {
+    color: white;
+    white-space: nowrap;
+    display: inline-flex;
+    animation-name: move;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+#moving-text1 h1 {
+
+color: #9B32E3;
+    font-size: 32px;
+    background-color: white;
+
+  
+}
+
+
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+#qq {
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    color: #1A2C1E;
+  
+}
+
+#paytone{
+     font-family: "Paytone One", sans-serif;
+    
+  
+    
+}
+
+
+#moving-text {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+#moving-text::-webkit-scrollbar {
+    display: none;
+
+}
+
+.con {
+    color: white;
+    white-space: nowrap;
+    display: inline-flex;
+    animation-name: move;
+    animation-duration: 14s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+#moving-text h1 {
+
+
+    font-size: 32px;
+    background-color: #1A2C1E;
+
+  
+}
+
+
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+#end {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5vw;
+background: #fff;
+    letter-spacing: 0.72px;
+    line-height: 5vw;
+    word-spacing: 0px;
+    height: 10.5vw;
+    width: 45vw;
+    
+}
+
+#end2 {
+    font-size: 1.2vw;
+    letter-spacing: 0.6px;
+    line-height: 1.7vw;
+    background: #ffff;
+    height: 4vw;
+    width: 45vw;
+  
+    
+
+}
+@media (max-width: 600px){
+    #cart2{
+        /* background: red; */
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-right: 10px;
+
+    
+ 
+    }
+   
+    #cart{
+        background: #009FA9;
+        height: 75px;
+    
+    }
+    #cart3{
+      font-size: 0px;
+    }
+    #cart1{
+       width: 50px;
+        height: 50px ;
+    }
+    #shop{
+        margin-left: 10px;
+    }
+    #aa{
+        height: 70vh;
+        width: 100vw;
+    }
+    #aa1{
+    height: 0px;
+    width: 0px;
+    }
+}
+
+
