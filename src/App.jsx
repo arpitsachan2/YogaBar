@@ -14,7 +14,7 @@ import img7 from './assets/files/Group_1715.png'
 import img8 from './assets/files/Power_Up_Monocarton_Mockup.png'
 import Card3 from './Card3'
 import Card4 from './Card4'
-import Slider2 from './slider2'
+// import Slider2 from './slider2'
 import card3img1 from './assets/card3/PROTEIN_MINI_BOX_FOP.webp'
 import card3img2 from './assets/card3/12g_Monocarton_FOP.webp'
 import card3img3 from './assets/card3/CreatineFOP_1.png'
@@ -55,7 +55,7 @@ const App = () => {
 
       </div>
 
-      <Slider2 />
+      {/* <Slider2 /> */}
 
       <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
 
