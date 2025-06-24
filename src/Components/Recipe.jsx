@@ -13,7 +13,7 @@ const recipe = () => {
 
       <div className=' w-[100vw] h-[10vw] flex justify-center -mt-[vw] absolute'>
 
-        <h1 id='paytone' className='font-bold  w-[60vw]  text-[5vw] h-[10vw] text-center   text-white absolute leading-[5vw]' >Let’s make something healthier together</h1>
+        <h1 id='paytone' className='font-bold  w-[60vw]  text-[5vw] h-[10vw] text-center   text-white absolute leading-[5vw]' >Lets make something healthier together</h1>
       </div>
 
 
@@ -31,7 +31,7 @@ const recipe = () => {
                 <img className='' src={img1} alt="" />
                 <div className='ml-[2vw] mt-[1vw]'>
                   <h2 className='text-[1.5vw]  font-bold'>Stuffed Baked Apple</h2> <br />
-                  <h3> ⭐️⭐️⭐️⭐️⭐️</h3>
+                  <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                   <span>⏰ 5</span>
                 </div>
                 <div className='h-[5vw]  flex justify-center  '>
@@ -46,7 +46,7 @@ const recipe = () => {
                 <img className='' src={img2} alt="" />
                 <div className='ml-[2vw] mt-[1vw]'>
                   <h2 className='text-[1.5vw]  font-bold'>Peanut Butter Banana Popsicle</h2> <br />
-                  <h3> ⭐️⭐️⭐️⭐️⭐️</h3>
+                  <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                   <span>⏰ 5</span>
                 </div>
                 <div className='h-[5vw]  flex justify-center  '>
@@ -61,7 +61,7 @@ const recipe = () => {
                 <img className='' src={img3} alt="" />
                 <div className='ml-[2vw] mt-[1vw]'>
                   <h2 className='text-[1.5vw]  font-bold'>Granola Fruit Tarts</h2> <br />
-                  <h3> ⭐️⭐️⭐️⭐️⭐️</h3>
+                  <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                   <span>⏰ 5</span>
                 </div>
                 <div className='h-[5vw]  flex justify-center  '>
@@ -76,7 +76,7 @@ const recipe = () => {
                 <img className='' src={img4} alt="" />
                 <div className='ml-[2vw] mt-[1vw]'>
                   <h2 className='text-[1.5vw]  font-bold'>Butter Apple Sandwich</h2> <br />
-                  <h3> ⭐️⭐️⭐️⭐️⭐️</h3>
+                  <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                   <span>⏰ 5</span>
                 </div>
                 <div className='h-[5vw]  flex justify-center  '>
@@ -91,7 +91,7 @@ const recipe = () => {
                 <img className='' src={img5} alt="" />
                 <div className='ml-[2vw] mt-[1vw]'>
                   <h2 className='text-[1.5vw]  font-bold'>Nut Butter Chickpeas</h2> <br />
-                  <h3> ⭐️⭐️⭐️⭐️⭐️</h3>
+                  <h3>⭐️⭐️⭐️⭐️⭐️</h3>
                   <span>⏰ 5</span>
                 </div>
                 <div className='h-[5vw]  flex justify-center  '>

@@ -90,7 +90,7 @@ const Slider2 = () => {
                 <video controls src='https://cdn.shopify.com/videos/c/o/v/824cef0fd5f64a97bfd2b3cc9d47ba2a.mp4' className='size-[32vw]'></video>
                 <img src={yellow} alt="" className='absolute -mt-[7.5vw]' />
                 <h3 className=' text-[1.5vw] text-gray-800 font-bold absolute -mt-[4.5vw] text-center ' >
-                  India’s Best-Selling Dark Chocolate Muesli, for a reason.</h3>
+                  India Best-Selling Dark Chocolate Muesli, for a reason.</h3>
               </SwiperSlide>
 
             </div>
