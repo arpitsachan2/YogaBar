@@ -11,7 +11,7 @@ const recipe = () => {
   return (
     <div id='qq' className=''>
 
-      <div className=' w-[100vw] h-[10vw] flex justify-center -mt-[vw] absolute'>
+      <div className=' w-[100vw] h-[10vw] flex justify-center  absolute'>
 
         <h1 id='paytone' className='font-bold  w-[60vw]  text-[5vw] h-[10vw] text-center   text-white absolute leading-[5vw]' >Lets make something healthier together</h1>
       </div>
@@ -25,7 +25,7 @@ const recipe = () => {
             onSlideChange={() => console.log('slide change')}
             onSwiper={(swiper) => console.log(swiper)}
           >
-            <div  >
+            
 
               <SwiperSlide className='bg-[#F8F2E3] h-[80vw] rounded-b-xl   ' >
                 <img className='' src={img1} alt="" />
@@ -106,7 +106,7 @@ const recipe = () => {
 
 
 
-            </div>
+            
           </Swiper>
         </div>
       </div>
