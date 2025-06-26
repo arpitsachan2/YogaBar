@@ -41,7 +41,7 @@ const App = () => {
   return (
     <div>
       <Nav />
-       <div  className='w-[100vw] max-sm:h-[160vw]  bg-amber-300 gap-[3vw]  flex flex-wrap justify-center items-center '>
+       <div  className='w-[100vw] max-sm:h-[200vw] gap-[3vw]  flex flex-wrap justify-center items-center '>
 
         <Card title='26g Protein Shake Mango Rizz' img={img1} lrs='840.00' rs='799.00' />
         <Card title='ProClean Plant Protein with Monk Fruit (Coffee) 500g' img={img2} lrs='1,850.00' rs='1,599.00' />
@@ -54,7 +54,7 @@ const App = () => {
 
 
 
-      <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
+      <div className='w-[100vw]  gap-[3vw] max-sm:h-[360vw]  max-sm:mb-[10vw] bg-amber-200 mt-[5vw] flex flex-wrap justify-center items-center '>
 
         <Card2 title='ProClean Whey with Monk Fruit (Chocolate) 3lb' img={card2img1} lrs='5998.00' rs='4,500.00' />
         <Card2 title='ProClean Whey Protein Isolate 750g - Trustified Certified' img={card2img2} lrs='4,499.00' rs='3,600.00' />
