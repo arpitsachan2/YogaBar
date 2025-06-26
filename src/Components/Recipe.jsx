@@ -37,7 +37,7 @@ const Recipe = () => {
               </div>
               <div className='h-[5vw]  flex justify-center  '>
 
-                <div className='bg-black  text-white flex justify-center items-center 
+                <div className='bg-black  text-white flex justify-center items-center duration-100 active:scale-105
             rounded-3xl hover:border-black border-[#F8F2E2] border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] w-[28vw]    '>
                   <span  > View Recipe  </span>
                 </div>
@@ -52,7 +52,7 @@ const Recipe = () => {
               </div>
               <div className='h-[5vw]  flex justify-center  '>
 
-                <div className='bg-black  text-white flex justify-center items-center 
+                <div className='bg-black  text-white flex justify-center items-center duration-100 active:scale-105
             rounded-3xl hover:border-black border-[#F8F2E2] border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] w-[28vw]    '>
                   <span  > View Recipe  </span>
                 </div>
@@ -67,7 +67,7 @@ const Recipe = () => {
               </div>
               <div className='h-[5vw]  flex justify-center  '>
 
-                <div className='bg-black  text-white flex justify-center items-center 
+                <div className='bg-black  text-white flex justify-center items-center duration-100 active:scale-105
             rounded-4xl hover:border-black border-[#F8F2E2] border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] w-[28vw]    '>
                   <span  > View Recipe  </span>
                 </div>
@@ -82,7 +82,7 @@ const Recipe = () => {
               </div>
               <div className='h-[5vw]  flex justify-center  '>
 
-                <div className='bg-black  text-white flex justify-center items-center 
+                <div className='bg-black  text-white flex justify-center items-center duration-100 active:scale-105
             rounded-3xl hover:border-black border-[#F8F2E2] border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] w-[28vw]    '>
                   <span  > View Recipe  </span>
                 </div>
@@ -97,7 +97,7 @@ const Recipe = () => {
               </div>
               <div className='h-[5vw]  flex justify-center  '>
 
-                <div className='bg-black  text-white flex justify-center items-center 
+                <div className='bg-black  text-white flex justify-center items-center duration-100 active:scale-105
             rounded-3xl hover:border-black border-[#F8F2E2] border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] w-[28vw]    '>
                   <span  > View Recipe  </span>
                 </div>

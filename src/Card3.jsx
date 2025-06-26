@@ -10,7 +10,7 @@ const Card3 = (p1) => {
       <div className='w-[20vw]  h-[45vw]  '>
 
         <div className='h-[22vw] -mb-[3vw] w-[20vw] flex justify-center items-center   bg-[#F8F2E3]  rounded-t-[50%] '>
-          <img className='size-[15vw]    cursor-pointer hover:border-4 border-[#F8F2E3]   '
+          <img className='size-[15vw] duration-100 active:scale-105   cursor-pointer hover:border-4 border-[#F8F2E3]   '
             src={p1.img} alt="" />
           <img className='size-[5vw] mb-[14vw] -m-[2.6vw]   ' src={new1} alt="" />
         </div>
@@ -22,7 +22,7 @@ const Card3 = (p1) => {
 
 
         <div className='mt-[2vw]  h-[12.5vw] leading-[1.8vw]  ' >
-          <span className='font-semibold text-[1.6vw] hover:underline cursor-pointer   ' >
+          <span className='font-semibold text-[1.6vw] hover:underline cursor-pointer  active:underline ' >
             {p1.title}
           </span>
           <span className=' text-[1.6vw] line-through ' >
@@ -35,7 +35,7 @@ const Card3 = (p1) => {
             <br />  Inclusive of All Taxes
           </span>
         </div>
-        <div className='bg-black  text-white flex justify-center items-center mt-[2vw]
+        <div className='bg-black duration-100 active:scale-105  text-white flex justify-center items-center mt-[2vw]
                 rounded-4xl hover:border-black border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw]   '>
           <span  > Add to cart</span>
         </div>

@@ -16,33 +16,33 @@ const Nav = () => {
     return (
 
         <div id='qq'>
-            <div id='cart' className='bg-[#E33675] w-[100vw] h-[15vh] flex justify-center items-center'>
+            <div id='cart' className='bg-[#E33675] w-[100vw] h-[15vh] flex justify-center items-center '>
 
                 <div className=' w-[43vw]'>
 
-                    <div id='shop' className=' font-bold text-white text-xl flex  '>
+                    <div id='shop' className=' font-bold text-white text-xl flex duration-100 active:scale-105 '>
                         <FaLocationArrow />
-                        <span >SHOP</span>
+                        <span className='hover:underline cursor-pointer hover:scale-105 active:underline ' >SHOP</span>
                     </div>
                 </div>
 
                 <div >
-                    <img id='cart1' className='h-[80px] w-[80px] ' src={icon} alt="" />
+                    <img id='cart1' className=' hover:scale-105 cursor-pointer duration-100 active:scale-105 h-[80px] w-[80px] ' src={icon} alt="" />
                 </div>
 
                 <div id='cart2' className=' w-[43vw] flex justify-end gap-8 text-[30px] '>
 
 
-                    <div className=' text-white  '>
+                    <div className='hover:scale-105 cursor-pointer text-white duration-100 active:scale-105  '>
                         < IoSearch />
                     </div>
-                    <div className=' text-white text- '>
+                    <div className='hover:scale-105 cursor-pointer text-white duration-100 active:scale-105 '>
                         <  MdOutlinePersonOutline />
                     </div>
-                    <div className='  text-white gap-1 font-bold flex '>
+                    <div className=' cursor-pointer  text-white gap-1 font-bold flex hover:scale-105 duration-100 active:scale-105 '>
 
-                        <span id='cart3' className='text-xl  ' >CART</span>
-                        <FaCartShopping className=' ' />
+                        <span id='cart3' className='text-xl hover:underline active:underline ' >CART</span>
+                        <FaCartShopping className='  ' />
                     </div>
 
                 </div>

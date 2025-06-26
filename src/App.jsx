@@ -4,14 +4,18 @@ import Nav from './Components/Nav'
 import Recipe from './Components/Recipe'
 import Nav2 from './Nav2'
 import Card2 from './Card2'
-import img1 from './assets/files/Group_794_b6015e30-dfcf-4395-afce-b93c336fc647.png'
-import img2 from './assets/files/Artboard_1_5.png'
-import img3 from './assets/files/Group_794_b6015e30-dfcf-4395-afce-b93c336fc647.png'
-import img4 from './assets/files/Group_793.png'
-import img5 from './assets/files/Group_796.png'
-import img6 from './assets/files/Group_1714.png'
-import img7 from './assets/files/Group_1715.png'
-import img8 from './assets/files/Power_Up_Monocarton_Mockup.png'
+import img1 from './assets/files/pack_of_6.png';
+import img2 from './assets/files/Plant-Protein-Coffee-FOP_1.png';
+import img3 from './assets/files/Plant-Protein-Unflavoured-FOP_1.png';
+import img4 from './assets/files/Plant-Protein-Chocolate-FOP_1.png';
+import card2img1 from './assets/files/Group_794_b6015e30-dfcf-4395-afce-b93c336fc647.png'
+import card2img2 from './assets/files/Artboard_1_5.png'
+import card2img3 from './assets/files/Group_794_b6015e30-dfcf-4395-afce-b93c336fc647.png'
+import card2img4 from './assets/files/Group_793.png'
+import card2img5 from './assets/files/Group_796.png'
+import card2img6 from './assets/files/Group_1714.png'
+import card2img7 from './assets/files/Group_1715.png'
+import card2img8 from './assets/files/Power_Up_Monocarton_Mockup.png'
 import Card3 from './Card3'
 import Card4 from './Card4'
 import Slider2 from './Slider2'
@@ -37,21 +41,29 @@ const App = () => {
   return (
     <div>
       <Nav />
-      <Card />
+       <div  className='w-[100vw] max-sm:h-[160vw]  bg-amber-300 gap-[3vw]  flex flex-wrap justify-center items-center '>
+
+        <Card title='26g Protein Shake Mango Rizz' img={img1} lrs='840.00' rs='799.00' />
+        <Card title='ProClean Plant Protein with Monk Fruit (Coffee) 500g' img={img2} lrs='1,850.00' rs='1,599.00' />
+        <Card title='ProClean Plant Protein (Unflavoured) 500g' img={img3} lrs='1,750.00' rs='1,499.00' />
+        <Card title='ProClean Plant Protein with Monk Fruit (Chocolate) 500g' img={img4} lrs='1,850.00' rs='1,750.00' />
+
+      </div>
+
       <Nav2 />
 
 
 
       <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
 
-        <Card2 title='ProClean Whey with Monk Fruit (Chocolate) 3lb' img={img1} lrs='5998.00' rs='4,500.00' />
-        <Card2 title='ProClean Whey Protein Isolate 750g - Trustified Certified' img={img2} lrs='4,499.00' rs='3,600.00' />
-        <Card2 title='ProClean Whey with Monk Fruit (Chocolate) 1.5lb' img={img3} lrs='2,999.00' rs='2,250.00' />
-        <Card2 title='ProClean Whey 0 Calorie Sweetener (Chocolate) 2lb' img={img4} lrs='3,999.00' rs='3,200.00' />
-        <Card2 title='ProClean Whey Protein Concentrate 1kg' img={img5} lrs='2,999.00' rs='2,400.00' />
-        <Card2 title='26g Protein Shake Double Chocolate - Pack of 24' img={img6} lrs='3,360.00' rs='2,700.00' />
-        <Card2 title='26g Protein Shake Cold Coffee - Pack of 24' img={img7} lrs='3,360.00' rs='2,700.00' />
-        <Card2 title='Power Up Choco Peanut Butter 20g Protein Bars - Pack of 5' img={img8} lrs='700.00' rs='650.00' />
+        <Card2 title='ProClean Whey with Monk Fruit (Chocolate) 3lb' img={card2img1} lrs='5998.00' rs='4,500.00' />
+        <Card2 title='ProClean Whey Protein Isolate 750g - Trustified Certified' img={card2img2} lrs='4,499.00' rs='3,600.00' />
+        <Card2 title='ProClean Whey with Monk Fruit (Chocolate) 1.5lb' img={card2img3} lrs='2,999.00' rs='2,250.00' />
+        <Card2 title='ProClean Whey 0 Calorie Sweetener (Chocolate) 2lb' img={card2img4} lrs='3,999.00' rs='3,200.00' />
+        <Card2 title='ProClean Whey Protein Concentrate 1kg' img={card2img5} lrs='2,999.00' rs='2,400.00' />
+        <Card2 title='26g Protein Shake Double Chocolate - Pack of 24' img={card2img6} lrs='3,360.00' rs='2,700.00' />
+        <Card2 title='26g Protein Shake Cold Coffee - Pack of 24' img={card2img7} lrs='3,360.00' rs='2,700.00' />
+        <Card2 title='Power Up Choco Peanut Butter 20g Protein Bars - Pack of 5' img={card2img8} lrs='700.00' rs='650.00' />
 
       </div>
 
@@ -86,6 +98,7 @@ const App = () => {
       </div>
 <Footerimg/>
 <Footer/>
+
 
 
 

@@ -48,9 +48,9 @@ const Nav2 = () => {
           <div className='h-[9vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
-           hover:border-[#FECB00] border-2 cursor-pointer font-bold   h-[3.5vw] '>
+           hover:border-[#FECB00] border-2 cursor-pointer font-bold duration-100 active:scale-105  h-[3.5vw] '>
 
-              <span className='text-white '> Let's Explore!</span>
+              <span className='text-white text-[1.4vw]  '> Let's Explore!</span>
             </div>
           </div>
         </div>
@@ -90,9 +90,9 @@ const Nav2 = () => {
           <div className='h-[7.5vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
-           hover:border-[#FECB00] border-2 cursor-pointer font-bold   h-[3.5vw] '>
+           hover:border-[#FECB00] border-2 cursor-pointer font-bold  duration-100 active:scale-105 h-[3.5vw] '>
 
-              <span className='text-white '> Let's Explore!</span>
+              <span className='text-white text-[1.4vw] '> Let's Explore!</span>
             </div>
           </div>
         </div>
@@ -132,9 +132,9 @@ const Nav2 = () => {
           <div className='h-[8.5vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
-           hover:border-[#FECB00] border-2 cursor-pointer font-bold   h-[3.5vw] '>
+           hover:border-[#FECB00] border-2 cursor-pointer font-bold duration-100 active:scale-105  h-[3.5vw] '>
 
-              <span className='text-white '> Let's Explore!</span>
+              <span className='text-white text-[1.4vw] '> Let's Explore!</span>
             </div>
           </div>
         </div>
