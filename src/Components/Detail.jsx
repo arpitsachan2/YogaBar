@@ -11,7 +11,8 @@ import img7 from '../assets/Community_15.webp'
 import img8 from '../assets/Community_18.webp'
 import img9 from '../assets/Community_26.webp'
 import fast from '../assets/Mask_group_1_9ba2ad85-10e6-4734-8722-a03fea93606b.webp'
-import oats from '../assets/Mask_group_2_53c3b94d-46f8-4431-ad8e-caa0ea3396d5.webp'
+import oats from '../assets/Mask_group_2_53c3b94d-46f8-4431-ad8e-caa0ea3396d5.avif'
+import protein from '../assets/Mask_group_1.webp'
 
 
 import Footer from './Footer'
@@ -82,7 +83,7 @@ const Detail = () => {
             <h2 className='text-center text-[2vw]  font-bold'>Oats & Quinoa</h2>
           </div>
           <div className=' h-[22vw] w-[15vw] ' >
-            <img className='h-[14vw] w-[14vw] ' src={pack6} alt="" />
+            <img className='h-[14vw] w-[14vw] ' src={protein} alt="" />
             <h2 className='text-center text-[2vw]  font-bold'>Protein</h2>
           </div>
         </div>
