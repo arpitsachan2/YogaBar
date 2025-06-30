@@ -1,0 +1,44 @@
+#m1 {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    gap: 200px;
+    
+    
+}
+
+#m1::-webkit-scrollbar {
+    display: none;
+
+}
+
+.co {
+    color: white;
+    white-space: nowrap;
+    display: inline-flex;
+    animation-name: mov;
+    animation-duration:90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+gap: 25px;
+}
+#imged{
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+
+
+
+@keyframes mov {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-550%);
+    }
+}
