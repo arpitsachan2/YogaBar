@@ -7,7 +7,7 @@ import banner1 from "../assets/files/Mobile_banner_-_26g_mango_shake.jpg";
 
 const Nav3 = () => {
   return (
-    <div>
+    <div id='qq'>
                  <img id='aa1' className='' src={banner} alt="" />
             <img id='aa' className='size-0' src={banner1} alt="" />
 

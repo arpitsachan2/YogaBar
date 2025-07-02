@@ -1,3 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Sarina&display=swap');
+
+#sarina {
+  font-family: "Sarina", cursive;
+  
+  font-style: normal;
+}
+
+
+
+
 #m1 {
     overflow-x: auto;
     white-space: nowrap;
@@ -42,3 +54,10 @@ gap: 25px;
         transform: translateX(-550%);
     }
 }
+#imged1{
+      height: 16vw;
+    width: 16vw;
+    border-radius: 50px;
+}
+
+
