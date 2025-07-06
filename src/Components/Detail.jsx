@@ -58,13 +58,14 @@ const faqs = [
   },
 ];
 
-export default function FAQSection() {
+export default function FAQSection(p2) {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggle = (index) => {
     setActiveIndex(index === activeIndex ? null : index);
   };
   const [count, setCount] = useState(0);
+  
   return (
     <div id='qq'>
       <Nav />
@@ -93,7 +94,7 @@ export default function FAQSection() {
 
 
                 </SwiperSlide>
-                <SwiperSlide className='  ' >
+                <SwiperSlide className='' >
                   <img className='' src={sl3} />
 
                 </SwiperSlide>
@@ -149,12 +150,12 @@ export default function FAQSection() {
 
           <div className=' h-[70vw] w-[40vw]'>
 
-            <h1 id='paytone' className='text-[3vw] text-white '>26g Protein Shake Mango Rizz</h1>
+            <h1 id='paytone' className='text-[3vw] text-white '>{p2.title}</h1>
             <h3 className='font-medium text-[1.2vw] '>Size : Pack of 6</h3>
             <h3 className='font-medium text-[1.2vw] bg-amber-50 h-[2.2vw] grid place-content-center w-[7.5vw] rounded-[2vw] '>Pack of 6</h3>
-            <h2 id='paytone' className='text-[3vw] text-white '>MRP: Rs. 840.00</h2>
+            <h2 id='paytone' className='text-[3vw] text-white '>MRP: Rs. 799.00</h2>
             <h6 id='paytone' className=' text-white font-medium text-[1.2vw]' >Inclusive of All Taxes</h6>
-            <h6 className='flex gap-[0.5vw] text-white '> <img className='w-[10vw] rounded-[0.5vw] border-[1px] mt-[0.2vw] border-white h-[2vw] ' src={star} alt="" />  4.9/5 ( 45 reviews)</h6>
+            <h6 className='flex gap-[0.5vw] text-white '> <img className='w-[10vw] rounded-[0.5vw] border-[1px] mt-[0.2vw] border-white h-[2vw] ' src={star} alt="" />  4.9/5 ( 45k reviews)</h6>
             <h6 className='flex text-white text-[1.2vw] italic '>10-yr old brand. 1 lakh 5-stars on <img className='w-[2vw] h-[2vw]  ' src={amazon} alt="" /> </h6>
             <h6 className='text-white font-medium text-[1.3vw]'>. <br />
               Contains 26g protein with no added preservatives <br />
@@ -212,10 +213,10 @@ export default function FAQSection() {
                 <h4 className='text-[1.2vw] font-medium pl-[2.5vw] flex gap-[1vw] '>Rs. 650
                   <h5 className='line-through font-normal '>Rs. 700</h5>
                 </h4>
-                
+
               </div>
               ✚
-                <div className="h-[14vw] w-[16vw] border-2 rounded-lg border-gray-300 ">
+              <div className="h-[14vw] w-[16vw] border-2 rounded-lg border-gray-300 ">
                 <div className="w-[16vw] h-[8vw] flex justify-center items-center ">
                   <img className='h-[8vw] w-[8vw] grid ' src={excart} alt="" />
 
@@ -224,7 +225,7 @@ export default function FAQSection() {
                 <h4 className='text-[1.2vw] font-medium pl-[2.5vw] flex gap-[1vw] '>Rs. 480
                   <h5 className='line-through font-normal '>Rs. 480</h5>
                 </h4>
-                
+
               </div>
 
             </div>

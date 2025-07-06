@@ -12,7 +12,8 @@ const App = () => {
           <BrowserRouter>
       <Routes>
 
-        <Route path="/Detail" element={<Detail/> } />
+        <Route path="/Detail" element={<Detail title="26g Protein Shake Mango Rizz"/> } />
+        {/* <Route path="/Detail" element={<Detail  title="a2"/> } /> */}
         <Route path="/ShopCategory" element={<ShopCategory/> } />
         <Route path="/" element={<Home/> } />
         <Route path="/Login" element={<Login/> } />

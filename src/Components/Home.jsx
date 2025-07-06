@@ -38,9 +38,7 @@ import card4img8 from '../assets/files/FNS.webp'
 import Footerimg from '../Components/Footerimg'
 import Footer from '../Components/Footer'
 import Nav3 from './Nav3'
-
-
-
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div>
@@ -49,12 +47,10 @@ const Home = () => {
       <Nav />
       <Nav3/>
        <div  className='w-[100vw] max-sm:h-[180vw] max-sm:mb-[10vw] gap-[3vw]  flex flex-wrap justify-center items-center '>
-
-        <Card title='26g Protein Shake Mango Rizz' img={img1} lrs='840.00' rs='799.00' />
-        <Card title='ProClean Plant Protein with Monk Fruit (Coffee) 500g' img={img2} lrs='1,850.00' rs='1,599.00' />
+      <Link to="/Detail">   <Card title='26g Protein Shake Mango Rizz' img={img1} lrs='840.00' rs='799.00' /></Link>
+      <Link to="/Detail">   <Card title='ProClean Plant Protein with Monk Fruit (Coffee) 500g' img={img2} lrs='1,850.00' rs='1,599.00' /></Link>  
         <Card title='ProClean Plant Protein (Unflavoured) 500g' img={img3} lrs='1,750.00' rs='1,499.00' />
         <Card title='ProClean Plant Protein with Monk Fruit (Chocolate) 500g' img={img4} lrs='1,850.00' rs='1,750.00' />
-
       </div>
 
       <Nav2 />

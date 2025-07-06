@@ -3,14 +3,14 @@ import new1 from '../assets/files/new1.png';
 import small1 from '../assets/small/Strength.webp';
 import small2 from '../assets/small/Lab_Test.webp';
 import small3 from '../assets/small/added_probiotics.webp';
-import { Link } from 'react-router-dom';
+
 
 
 const Card = (p1) => {
   return (
     <div id='qq'>
       <div className='w-[20vw] h-[40vw] max-sm:w-[45vw]  max-sm:h-[70vw]  '>
-        <Link to="/Detail">
+       
 
         <div className='  h-[22vw] -mb-[3vw] w-[20vw] flex justify-center items-center  bg-[#F8F2E3]  rounded-t-[50%] 
               max-sm:w-[45vw] max-sm:h-[50vw] '>
@@ -42,7 +42,7 @@ const Card = (p1) => {
             <br />  Inclusive of All Taxes
           </span>
         </div>
-          </Link>
+          
         
         <div className='bg-[#1A2C1E]  text-white flex justify-center items-center 
             rounded-3xl hover:border-black border-2 cursor-pointer text-[1.4vw] font-bold  h-[3.5vw] duration-100 active:scale-105
