@@ -39,6 +39,7 @@ import Footerimg from '../Components/Footerimg'
 import Footer from '../Components/Footer'
 import Nav3 from './Nav3'
 import { Link } from 'react-router-dom';
+import Card5 from './Card5'
 const Home = () => {
   return (
     <div>
@@ -99,6 +100,20 @@ const Home = () => {
         <Card4 title='Fruits Nuts & Seeds Muesli 700g' img={card4img8} lrs='499.00' rs='449.00' text='Just a lotta fruits, nuts, seeds, and whole grains. Wholesome innit?' />
 
       </div>
+    <link rel="Card4" href="" />  <button>LoadMore</button>
+      <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
+
+        <Card5 title='High Protein Muesli' img={card4img1} lrs='395.00' text='When we say 21g protein, we mean it.' rs='375.00' />
+        <Card5 title='20g Protein Oats Choco Almond 850g' img={card4img2} lrs='699.00' rs='664.00' text='We made sure your mornings get the right amount of love and protein.' />
+        <Card5 title='100% Rolled Oats 1kg' img={card4img3} lrs='490.00' rs='466.00' text='Take your breakfast to the next level, overnight!' />
+        <Card5 title='Variety Pack Breakfast Bar Box (Pack of 6)' img={card4img4} lrs='359.00' rs='299.00' text="Name a better flavour combo, we'll wait!" />
+        <Card5 title='Apricot Fig Breakfast Dark Chocolate Pancake Bar (Pack of 6)' img={card4img5} lrs='359.00' rs='290.00' text="A quick fruity fix for people who're too busy for breakfast." />
+        <Card5 title='Dark Chocolate Pancake Mix, 150g' img={card4img6} lrs='150.00' rs='143.00' text="Who said you can't eat pancakes everyday." />
+        <Card5 title='Variety Pack Energy Bar (Pack of 10)' img={card4img7} lrs='499.00' rs='399.00' text="Unadulterated energy, in every bite." />
+        <Card5 title='Fruits Nuts & Seeds Muesli 700g' img={card4img8} lrs='499.00' rs='449.00' text='Just a lotta fruits, nuts, seeds, and whole grains. Wholesome innit?' />
+
+      </div>
+      
 <Footerimg/>
 <Footer/>
 
