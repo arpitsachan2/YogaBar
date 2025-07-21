@@ -100,7 +100,7 @@ const Home = () => {
         <Card4 title='Fruits Nuts & Seeds Muesli 700g' img={card4img8} lrs='499.00' rs='449.00' text='Just a lotta fruits, nuts, seeds, and whole grains. Wholesome innit?' />
 
       </div>
-    <link rel="Card4" href="" />  <button>LoadMore</button>
+   
       <div className='w-[100vw]  gap-[3vw]  mt-[5vw] flex flex-wrap justify-center items-center '>
 
         <Card5 title='High Protein Muesli' img={card4img1} lrs='395.00' text='When we say 21g protein, we mean it.' rs='375.00' />

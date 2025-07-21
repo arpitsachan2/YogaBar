@@ -3,6 +3,7 @@ import './Nav2.css';
 import bar1 from './assets/files/bar1.png'
 import bar2 from './assets/files/Group_448.png'
 import bar3 from './assets/files/Group_446.png'
+import { Link } from "react-router-dom"
 
 const Nav2 = () => {
   return (
@@ -45,14 +46,16 @@ const Nav2 = () => {
               </p>
             </div>
           </div>
+          <Link to="/Bars"> 
           <div className='h-[9vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
            hover:border-[#FECB00] border-2 cursor-pointer font-bold duration-100 active:scale-105  h-[3.5vw] '>
 
-              <span className='text-white text-[1.4vw]  '> Let's Explore!</span>
+             <span className='text-white text-[1.4vw]  '> Let's Explore!</span>
             </div>
           </div>
+          </Link>
         </div>
         <div className='w-[21vw] h-[30vw] bg-[#FECB00]  rounded-b-xl  '>
 
@@ -87,6 +90,7 @@ const Nav2 = () => {
               </p>
             </div>
           </div>
+          <Link to="/YogaBaby">
           <div className='h-[7.5vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
@@ -95,6 +99,7 @@ const Nav2 = () => {
               <span className='text-white text-[1.4vw] '> Let's Explore!</span>
             </div>
           </div>
+          </Link>
         </div>
         <div className='w-[21vw] h-[30vw] bg-[#FECB00]  rounded-b-xl  '>
 
@@ -129,6 +134,7 @@ const Nav2 = () => {
               </p>
             </div>
           </div>
+          <Link to="/Oats">
           <div className='h-[8.5vw] w-[21vw]  flex justify-center items-center'>
 
             <div className='bg-black w-[18vw]  flex justify-center items-center rounded-4xl shadow-2xl
@@ -137,6 +143,7 @@ const Nav2 = () => {
               <span className='text-white text-[1.4vw] '> Let's Explore!</span>
             </div>
           </div>
+          </Link>
         </div>
       </div>
     </div >
